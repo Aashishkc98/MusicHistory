@@ -1,0 +1,6 @@
+framework module Pods_MusicHistory {
+  umbrella header "Pods-MusicHistory-umbrella.h"
+
+  export *
+  module * { export * }
+}
