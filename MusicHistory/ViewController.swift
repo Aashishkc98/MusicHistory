@@ -13,7 +13,7 @@ class ViewController: UIViewController , UIScrollViewDelegate{
     
     //MARK: Data
     var titles = ["ABOUT MUSIC", "MUSIC HUB", "ALL ABOUT THE MUSIC"]
-    var descs = ["Know all about your favourite Band.", "You can find all the Information of your favourite Band.", "The first music project which has all Information about your favourite band."]
+    var descs = ["The problem with muisc history is it's almost presented in the wrong direction: forwarded from the beginning of something to the end.", "There are numerous theories regarding when and where music originated and you will find answers here about your favourite band.", "Popular muisc is the sound track to much of our history and you will find some revolutionary facts about your favourite band."]
     var imgs = ["Front", "Middle", "Last"]
     
     override func viewDidLayoutSubviews() {

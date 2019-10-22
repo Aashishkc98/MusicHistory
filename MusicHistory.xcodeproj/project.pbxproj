@@ -10,6 +10,7 @@
 		67094D943216CF4FB3A7169A /* Pods_MusicHistory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BE844F251D9D48AB4265B4 /* Pods_MusicHistory.framework */; };
 		75017971235BBA1400EF4B26 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75017970235BBA1400EF4B26 /* SignUpViewController.swift */; };
 		75017973235BBA3600EF4B26 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75017972235BBA3600EF4B26 /* LogInViewController.swift */; };
+		756A50F7235E8673005397A9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756A50F6235E8673005397A9 /* MainViewController.swift */; };
 		758896682355598C00730C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758896672355598C00730C64 /* AppDelegate.swift */; };
 		7588966A2355598C00730C64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758896692355598C00730C64 /* SceneDelegate.swift */; };
 		7588966C2355598C00730C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7588966B2355598C00730C64 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		64972ECCD7DBE67AED0D5D3E /* Pods-MusicHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicHistory.release.xcconfig"; path = "Target Support Files/Pods-MusicHistory/Pods-MusicHistory.release.xcconfig"; sourceTree = "<group>"; };
 		75017970235BBA1400EF4B26 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		75017972235BBA3600EF4B26 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		756A50F6235E8673005397A9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		758896642355598C00730C64 /* MusicHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758896672355598C00730C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758896692355598C00730C64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				7588966B2355598C00730C64 /* ViewController.swift */,
 				75017972235BBA3600EF4B26 /* LogInViewController.swift */,
 				75017970235BBA1400EF4B26 /* SignUpViewController.swift */,
+				756A50F6235E8673005397A9 /* MainViewController.swift */,
 				7588966D2355598C00730C64 /* Main.storyboard */,
 				758896702355598D00730C64 /* Assets.xcassets */,
 				758896722355598D00730C64 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 				7588966C2355598C00730C64 /* ViewController.swift in Sources */,
 				758896682355598C00730C64 /* AppDelegate.swift in Sources */,
 				75017971235BBA1400EF4B26 /* SignUpViewController.swift in Sources */,
+				756A50F7235E8673005397A9 /* MainViewController.swift in Sources */,
 				75017973235BBA3600EF4B26 /* LogInViewController.swift in Sources */,
 				7588966A2355598C00730C64 /* SceneDelegate.swift in Sources */,
 			);

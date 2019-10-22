@@ -8,6 +8,7 @@
 
 import UIKit
 import FirebaseAuth
+import FirebaseAnalytics
 
 
 class LogInViewController: UIViewController {
@@ -18,10 +19,11 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func logInAction(_ sender: Any) {
+        performSegue(withIdentifier: "goToMain", sender: self)
         Auth.auth().signIn(withEmail: email.text!, password: passwordText.text!) { (user, error) in
            if error == nil{
              self.performSegue(withIdentifier: "loginToHome", sender: self)
@@ -35,5 +37,6 @@ class LogInViewController: UIViewController {
                  }
         }
     }
+
     
 }
